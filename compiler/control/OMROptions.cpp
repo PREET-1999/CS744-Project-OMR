@@ -5372,7 +5372,7 @@ const char *OMR::Options::_verboseOptionNames[TR_NumVerboseOptions] = { "options
     "compilationDispatch", "reclamation", "hookDetailsClassLoading", "hookDetailsClassUnloading", "sampleDensity",
     "profiling", "JITServer", "aotcompression", "JITServerConns", "vectorAPI", "iprofilerPersistence",
     "CheckpointRestore", "CheckpointRestoreDetails", "RSSReport", "RSSReportDetailed", "dependencyTracking",
-    "dependencyTrackingDetails", "JITServerSharedProfile", "JITServerSharedProfileDetails" };
+    "dependencyTrackingDetails", "JITServerSharedProfile", "JITServerSharedProfileDetails", "JITServerSaveToDisk" };
 
 const char *OMR::Options::setVerboseBitsInJitPrivateConfig(const char *option, void *base, TR::OptionTable *entry)
 {
